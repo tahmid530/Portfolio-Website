@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
 
     const navItems = <>
-        <><Link to='/' className="hover:text-[#EEA302] py-1 lg:py-0 lg:px-2">Resume</Link></>
-        <><Link to='/' className="hover:text-[#EEA302] py-1 lg:py-0 lg:border-l-2 lg:border-black lg:px-2">Projects</Link></>
-        <><Link to='/' className="hover:text-[#EEA302] py-1 lg:py-0 lg:border-l-2 lg:border-black lg:pl-2">Contact</Link></>
+        <><Link to='/resume' className="hover:text-[#EEA302] py-1 lg:py-0 lg:px-2">Resume</Link></>
+        <><Link to='/projects' className="hover:text-[#EEA302] py-1 lg:py-0 lg:border-l-2 lg:border-black lg:px-2">Projects</Link></>
+        <><Link to='/contact' className="hover:text-[#EEA302] py-1 lg:py-0 lg:border-l-2 lg:border-black lg:pl-2">Contact</Link></>
     </>
 
     return (
