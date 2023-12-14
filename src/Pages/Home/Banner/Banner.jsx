@@ -35,7 +35,7 @@ const Banner = () => {
                         <Link to='/contact'><button className="btn btn-outline rounded-full h-40 w-40 text-xl bg-[#80D8DA] hover:bg-white hover:text-black border-2">Contact</button></Link>
                     </div>
                 </div>
-                <div>
+                <div  data-aos="zoom-in-left">
                     <img src="https://i.ibb.co/Zh8wG87/my-professional-photo.png" alt="" className="rounded-full h-[500px] w-[500px]" />
                 </div>
             </div>
