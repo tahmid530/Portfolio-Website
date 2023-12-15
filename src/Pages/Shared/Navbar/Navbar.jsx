@@ -28,7 +28,7 @@ const Navbar = () => {
                             </g>
                         </svg>
                         <Link Link to='/'>
-                            <button className="text-md lg:text-xl font-extrabold">Abdus Salam Tahmid</button>
+                            <button className="btn btn-ghost text-md lg:text-xl font-extrabold">Abdus Salam Tahmid</button>
                         </Link>
                     </div>
                 </div>

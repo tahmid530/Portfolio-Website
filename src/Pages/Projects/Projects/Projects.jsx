@@ -4,8 +4,8 @@ const Projects = () => {
     return (
         <>
             <div>
-                <div className="flex items-center justify-evenly mt-10 mb-28">
-                    <div className="bg-base-200 p-8" data-aos="zoom-out-right">
+                <div className="flex flex-col lg:flex-row items-center justify-evenly mt-10 mb-12 lg:mb-28 px-3 lg:px-0">
+                    <div className="bg-base-200 p-8 mb-4 lg:mb-0" data-aos="zoom-out-right">
                         <img src="https://i.ibb.co/HpyfKs4/COURSE-REGISTRATION.png" alt="" className="w-[640px]" />
                     </div>
                     <div className="lg:ml-40" data-aos="zoom-out-left">
@@ -21,8 +21,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-evenly mt-10 mb-28" data-aos="zoom-out">
-                    <div className="bg-base-200 p-8" data-aos="zoom-out-right">
+                <div className="flex flex-col lg:flex-row items-center justify-evenly mt-10 mb-12 lg:mb-28 px-3 lg:px-0">
+                    <div className="bg-base-200 p-8 mb-4 lg:mb-0" data-aos="zoom-out-right">
                         <img src="https://i.ibb.co/mzLMNRy/brand-shop.png" alt="" className="w-[640px]" />
                     </div>
                     <div className="lg:ml-40" data-aos="zoom-out-left">
@@ -37,8 +37,8 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-evenly mt-10 mb-28" data-aos="zoom-out">
-                    <div className="bg-base-200 p-8" data-aos="zoom-out-right">
+                <div className="flex flex-col lg:flex-row items-center justify-evenly mt-10 mb-12 lg:mb-28 px-3 lg:px-0">
+                    <div className="bg-base-200 p-8 mb-4 lg:mb-0" data-aos="zoom-out-right">
                         <img src="https://i.ibb.co/sKc6yZs/career-connector.png" alt="" className="w-[640px]" />
                     </div>
                     <div className="lg:ml-40" data-aos="zoom-out-left">
@@ -55,6 +55,9 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="mt-1">
+                <hr />
             </div>
         </>
     );
