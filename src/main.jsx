@@ -8,6 +8,7 @@ import {
 import Root from './Layout/Root.jsx';
 import Home from './Pages/Home/Home/Home';
 import Contact from './Pages/Contact/Contact/Contact.jsx';
+import Resume from './Layout/Resume.jsx';
 
 
 
@@ -20,10 +21,10 @@ const router = createBrowserRouter([
         path: "/",
         element: <Home></Home>
       },
-      {
-        path: "/resume",
-        element: <Home></Home>
-      },
+      // {
+      //   path: "/resume",
+      //   element: <Home></Home>
+      // },
       {
         path: "/projects",
         element: <Home></Home>
@@ -34,6 +35,16 @@ const router = createBrowserRouter([
       }
     ]
   },
+  {
+    path: "/resume",
+    element: <Resume></Resume>,
+    children: [
+      {
+        path: "",
+        element: <></>
+      },
+    ]
+  }
 ]);
 
 
