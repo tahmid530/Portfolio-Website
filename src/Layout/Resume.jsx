@@ -1,6 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import Navbar from "../Pages/Shared/Navbar/Navbar";
 import Footer from "../Pages/Shared/Footer/Footer";
+import Intro from "../Pages/Resume/Intro/Intro";
 
 
 const Resume = () => {
@@ -18,7 +19,7 @@ const Resume = () => {
                                 My Experience</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/education">
+                            <NavLink to="/resume/education">
                                 <img src="/src/assets/gif icon/education.gif" alt="" className="h-8 w-8" />
                                 My Education</NavLink>
                         </li>
@@ -27,13 +28,21 @@ const Resume = () => {
                                 <img src="/src/assets/gif icon/skills.gif" alt="" className="h-8 w-8" />
                                 My Skills</NavLink>
                         </li>
+                        <li>
+                            <NavLink to="/resume/download">
+                                <img src="/src/assets/gif icon/skills.gif" alt="" className="h-8 w-8" />
+                                Download Resume</NavLink>
+                        </li>
                     </ul>
                 </div>
                 {/* resume content */}
                 <div className="flex-1 p-8">
-                <h3 className="text-5xl font-bold pb-10">Resume</h3>
+                    <Intro></Intro>
                     <Outlet></Outlet>
                 </div>
+            </div>
+            <div className="mt-1">
+                <hr />
             </div>
             <div><Footer></Footer></div>
         </>
