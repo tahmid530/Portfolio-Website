@@ -4,11 +4,11 @@ const Footer = () => {
     return (
         <>
             <div className="flex justify-around my-4" data-aos="zoom-in">
-                <div>
+                <div className="text-center">
                     <h3 className="text-lg font-bold">Phone</h3>
                     <p>123-456-7890</p>
                 </div>
-                <div>
+                <div className="text-center">
                     <h3 className="text-lg font-bold">Email</h3>
                     <p>astahmid777@gmail.com</p>
                 </div>
