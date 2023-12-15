@@ -13,6 +13,7 @@ import Experience from './Pages/Resume/Experience/Experience.jsx';
 import Education from './Pages/Resume/Education/Education.jsx';
 import Skills from './Pages/Resume/Skills/Skills.jsx';
 import Download from './Pages/Resume/Download/Download.jsx';
+import Projects from './Pages/Projects/Projects/Projects.jsx';
 
 
 
@@ -31,7 +32,7 @@ const router = createBrowserRouter([
       // },
       {
         path: "/projects",
-        element: <Home></Home>
+        element: <Projects></Projects>
       },
       {
         path: "/contact",
