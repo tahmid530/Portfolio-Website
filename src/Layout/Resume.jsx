@@ -15,22 +15,22 @@ const Resume = () => {
                     <ul className="menu p-6">
                         <li>
                             <NavLink to="/resume/experience">
-                                <img src="/src/assets/gif icon/experience.gif" alt="" className="h-8 w-8" />
+                                <img src="https://i.ibb.co/VgGNkCg/experience.gif" alt="" className="h-8 w-8" />
                                 My Experience</NavLink>
                         </li>
                         <li>
                             <NavLink to="/resume/education">
-                                <img src="/src/assets/gif icon/education.gif" alt="" className="h-8 w-8" />
+                                <img src="https://i.ibb.co/L5QtbSF/education.gif" alt="" className="h-8 w-8" />
                                 My Education</NavLink>
                         </li>
                         <li>
                             <NavLink to="/resume/skills">
-                                <img src="/src/assets/gif icon/skills.gif" alt="" className="h-8 w-8" />
+                                <img src="https://i.ibb.co/CpcFjtN/skills.gif" alt="" className="h-8 w-8" />
                                 My Skills</NavLink>
                         </li>
                         <li>
                             <NavLink to="/resume/download">
-                                <img src="/src/assets/gif icon/skills.gif" alt="" className="h-8 w-8" />
+                                <img src="https://i.ibb.co/sgKvkcB/download-1.gif" alt="" className="h-8 w-8" />
                                 Download Resume</NavLink>
                         </li>
                     </ul>
